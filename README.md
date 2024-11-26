@@ -22,7 +22,7 @@ Ca. Zeitangaben in Millisek.:
     Minimum = 119ms, Maximum = 120ms, Mittelwert = 119ms
 ~~~
 #### hint ####
-You may add this line to %LANGC00.mac to make usage easier
+You may add this line to %ZLANGC00.mac to make usage easier
 ~~~
    ZPIPE(%a) do cmd^Zpipe(%a) quit
 ~~~
