@@ -11,7 +11,7 @@ do ##class(SYS.Container).QuiesceForBundling()
 Do ##class(Security.Users).UnExpireUserPasswords("*")
 Do \$system.OBJ.ImportDir("/opt/irisapp/src",,"ck")
 zn "IRISAPP"
-zpm "install webterminal"
+zpm "install iterm"
 halt
 EOF
 
